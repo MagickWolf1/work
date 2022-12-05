@@ -1,0 +1,15 @@
+# s.remove('melon') #работает и с s.add ))
+# if 'apple' in s:
+#   print("ok") # проверка есть ли элемент
+
+# print(s)
+
+
+# s2 = s.copy()
+# print(s,id(s))
+# print(s2,id(s2))
+
+a = frozenset('hello') # статичный элемент
+#a.add ("hello") # не возможно добавить
+print(a)
+
