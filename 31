@@ -1,0 +1,30 @@
+# модули
+from datetime import date, datetime
+# date
+
+# # today = date.today() # текущая дата
+# # print(today)
+# # print(today.day) # только день
+# # print(today.year) # только год
+# # print(today.weekday()) # день недели от 0 понедельник
+# #
+# # #datetime
+#
+# now = datetime.now()  # дата время
+# # now2 =datetime.today() # тоже самое
+# # print(now)
+# # print(now2)
+# # print(now.hour)# часы
+# # print(now.minute)#минуты
+# # print(now.second)# секунды
+#
+# # days = ['пн', 'вт', 'ср', "чт", 'пт', "сб", 'вс', ]
+# # print(days[now.weekday()])
+#
+# print(now)
+
+
+# import os
+# tree = os.walk('sub')
+# for files in tree:
+#    print(files)
