@@ -1,0 +1,17 @@
+import random
+
+x = random.randint(0, 25)
+user = 0
+tru = 0
+
+while True:
+    user = int(input("Я загадал число от 1 до 25 угадай его ):")) # число до 25 чтоб было удобнее
+    tru += 1
+    if user == x:
+        print(f"Угодал за {tru} раз")
+        print("спасибо что сыграл")
+        break
+    elif user > x:
+        print('моё число меньше')
+    else:
+        print("моё число побольше")
