@@ -1,0 +1,19 @@
+# списки
+#l = [1, 2 ,3, 'hello', ['test', 10], 'world', True] #список
+
+#12 = list ('hello')
+#13 = list((1, 2, 3)) #функия лист
+
+#14 = [i for i in 'hello'] # генерато списков
+#15 = [i for i in 'hello world' if i != ' ' and i != 'e']
+
+#print( 1, 12, sep='\n')
+
+
+#print(list(range(0, 11, 2))) # генератор
+
+for i in range(1, 3):
+    print(f'Внешний цыкл#{i}')
+    for j in range(1,3):
+        print(f'\tВнутренний цыкл #{j}')
+
