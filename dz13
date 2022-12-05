@@ -1,0 +1,4 @@
+god = 1888
+while god <= 1999:
+    print(god)
+    god += 1
