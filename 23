@@ -1,0 +1,13 @@
+
+
+prodyct1 = {'title': 'sony', 'price': 100}
+
+users_t = [ # словарь
+    ('bob@gmail.com', 'Bob'),
+    ('katy@gmail.com', 'Katy'),
+    ('john@gmail.com', 'John')
+]
+print(users_t)
+
+nums ={i: i + 1 for i in range(1,10) }
+print(nums)
