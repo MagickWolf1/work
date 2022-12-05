@@ -1,0 +1,75 @@
+# документация функции
+def get_sum(a, b):
+    '''
+    Возвращает сумму аргументов а и б.
+
+    :param a: первый операнд
+    :type a: int
+    :param b: второй операнд
+    :type b: int
+    '''
+    return a + b
+
+
+# print(get_sum(1,2))
+a = 5  # global
+
+# def f():
+#     a = 10  # local
+#     a += 1
+#     print(a)  # локальная переменная так как не объявлена в функции
+#
+#
+# print(a)
+# #f()
+# #print(a)
+
+# def f():
+#     global a
+#     a +=1
+#
+# print(a)
+# f()
+# print(a)
+
+
+# l = [1, 2, 3]
+
+
+# def f(l):
+#     return [i * 2 for i in l]
+#
+# print(f(l))
+
+
+
+# def odd_ball(arr):
+#     return arr.index('odd') in arr
+#
+# odd_ball(["even", 4, "even", 7, "even", 55, "even", 6, "even", 10, "odd", 3, "even"])
+# odd_ball(["even",4,"even",7,"even",55,"even",6,"even",9,"odd",3,"even"])
+# odd_ball(["even",10,"odd",2,"even"])
+
+
+
+
+# def find_sum(n):
+#     r = 0
+#     for i in range(n+ 1):
+#         if i % 3 == 0 or i % 5 == 0:
+#             r += i
+#
+# print(find_sum(5))
+# print(find_sum(10))
+
+
+# name = ["Ryan", "Kieran", "Mark", "John", "David", "Paul"]
+# name2=[]
+# def get_names(name):
+#     for i in name:
+#         if len(i)==4:
+#             name2.append(i)
+#     print(name2)
+#     name2.clear()
+# get_names(name)
+# print(name2)
