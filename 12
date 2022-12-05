@@ -1,1 +1,65 @@
-# work
+#print(3 == 3)
+'''
+if выражение 1
+блок кода 1.
+elif вырожение 2
+блок кода 2.
+else
+блок кода 3.
+'''
+
+
+#x = 0
+#if x:
+#   print('переменная x вернула ИСТИНУ')
+    #если нужно дополнить писать в этом поле то есть с отступом
+#else:
+#    print('переменная x вернула ЛОЖЬ')
+    #так же тут
+
+
+
+
+#if 1:
+#    print('истина') #вывод истини или ложь
+#else:
+#    print('ложь')
+
+#light = "red"
+
+#if light == "red":
+#    print("stop")
+#elif light == "yellow":
+#    print('wait')
+#elif light == 'green':
+#    print('go')
+#else:
+#   print('what?')
+
+
+#age = int(input('сколько лет?'))
+#if age >= 18:
+#    print("привет")
+#else:
+#    print(f'тебе {age} лет, не хватило {18 - age}')
+
+
+#time = 11    # операторы по типо or, and, not. смотрим на их работу
+#day = "st"
+#if time >= 8 and day != 'su':
+#    print ("open")
+#else :
+#    print("close")
+
+
+#x = 1
+#if not x:  #инверсия условия
+#    print('ok')
+#else:
+#    print('no')
+
+x = 1
+
+#res = "ok" if x else  'no'
+#print(res)
+#print("ok" if x else  'no')
