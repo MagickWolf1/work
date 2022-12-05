@@ -1,0 +1,16 @@
+s = ('Hello world')
+def set_register(s):
+    if ' ' in s:
+        return s.upper()
+    else:
+        return s.lower()
+print(set_register('Hello world'))
+
+
+
+def get_summ(a,b,c,d):
+    return  a+b+c+d
+
+print(get_summ(1,2,5,7))
+
+
