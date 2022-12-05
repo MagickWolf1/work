@@ -1,0 +1,18 @@
+#dz
+'''
+wor = ['мадам', 'топот', 'test', 'madam', 'word']
+palka = []
+for wor in wor:
+    if wor == wor[::-1]:
+        palka.append(wor)
+print(palka)
+'''
+'''
+my_str = ['Око за око', 'А роза упала на лапу Азора', 'Около Миши молоко']
+p = []
+for word in my_str:
+    f = word.replace(' ', '').lower()
+    if f == f[::-1]:
+        p.append(word)
+print(p)
+'''
