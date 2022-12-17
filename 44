@@ -1,0 +1,43 @@
+s = "Это простая. строка текста"
+pattern = 'cтрока'
+# print(s.find(pattern))
+
+import re
+
+# if re.search(pattern, s):
+#     print("nice")
+# else:
+#     print("noyp")
+#
+#
+# match = re.search(pattern, s)
+# # print(match.span())
+# # print(match.start())
+
+# print(re.match(pattern, s)) # регистро зависимые
+# pattern = r"[a-z]+"
+# pattern = r"[0-9]+"
+
+# s = 'mail@mail.ru'
+# print(re.findall(pattern, s, flags=re.IGNORECASE))
+#
+# # print(re.findall(pattern, s))
+#
+#
+# print(re.split(r'\.',s)) # с точкой нужно использовать \  или r'\.'
+#
+#
+
+def validate_email(email):
+    return re.match(r"^.+@(\w+\.){0, 2}[a-z]{2, 6}$", email, flags=re.IGNORECASE)
+print(validate_email('mail@mail.ru'))
+print(validate_email('Magick@mail.ru'))
+print(validate_email('MMM@mail.ru'))
+
+
+
+
+
+
+
+
