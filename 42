@@ -1,0 +1,51 @@
+# def hello():
+#     return 'hello, i am funk'
+#
+#
+# def super_func(func):
+#     print('hello, i am super')
+#     print(func())
+#
+#
+# super_func(hello)
+
+#
+# def hello():
+#     return 'hello, i am funk'
+#
+# test = hello
+# print(test())
+
+
+
+# def my_decorator(func):
+#     def func_wrapper():
+#         print('code before')
+#         func()
+#         print("code after")
+#     return func_wrapper    # возращает только после декарирования
+#
+# @my_decorator
+# def fun_test():
+#     print('hto')
+#
+#
+# # test = my_decorator(fun_test)
+# # test()
+# fun_test() # аналог 33 - 34 строчки
+#
+
+
+def make_title(fn):
+    def wraped():
+        title = title = fn()
+        title = title.capitalize()
+        title = title.replace(","," ")
+        return title
+    return wraped()
+
+@make_title
+def hi():
+    return 'hello, world'
+
+print(hi)
