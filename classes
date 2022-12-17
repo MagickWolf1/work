@@ -1,0 +1,25 @@
+class Person:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def print_info(self):
+        print(f'hello, my name is {self.name}, Age: {self.age}')
+
+    def age(self):
+        return self.age
+
+
+    def age(self, value):
+        if value in range(1, 101):
+            self.age = value
+        else:
+            print('worng age')
+
+
+class Employee(Person): # наследует от пёрсон
+    company = 'Googl'
+
+    def more_info(self):
+        print(f' {self.name},works in {self.company}')
