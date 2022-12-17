@@ -1,0 +1,33 @@
+# разбираем ошибки и как они описываются
+
+# print(100/2)
+# print(1+"2")
+# print(int('test'))
+
+# try:
+#     num = 100 / 2
+# except ZeroDivisionError:
+#     num = 0
+# except TypeError:
+#     num = 1
+# print(num)
+# print('hi')
+# try:
+#     num = 10 / 2
+# except Exception:
+#     num = 0
+# else:
+#     print("else")
+# finally:
+#     print("finelli")
+#
+# исключения
+# while True:
+#     try:
+#         num = int(input('suda:'))
+#         print(f'100 / {num} = {100 / num}')
+#         break
+#     except ZeroDivisionError:
+#         print("null")
+#     except ValueError:
+#         print("ne to")
