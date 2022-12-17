@@ -1,0 +1,23 @@
+import zipfile
+import os
+# os.path.join()
+# os.path.relpath()
+
+folder = '/Users/magickwolf/PycharmProjects/New/folder'
+zip_file ='/Users/magickwolf/PycharmProjects/New/folder.zip'
+zip_name = 'zika.zip'
+
+
+zip = zipfile.ZipFile(zip_file,'w')
+
+# zip.write('/Users/magickwolf/PycharmProjects/New/folder/text.txt', compress_type=zip_file.ZIP_DEFLATED)
+
+for folder, subfoler, files in os.walk(folder):
+    print(folder,subfoler,files)
+    for file in files:
+        zip.write(os.path.join(folder,file))
+
+
+
+
+zip.close()
