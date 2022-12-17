@@ -1,0 +1,18 @@
+# ''. функции
+class A: # класс
+     property1 = "pro1"
+     property2 = 'pro2' # вот так лучше
+
+     def say_hi(self):
+        return "hi"
+
+a = A()
+b = A()
+"""
+a.property1 = "pro1"
+a.property2 = 'pro2'
+# print(a)  # так писать не очень 
+print(a.property1)
+"""
+# print(a.prooerty1)
+print(a.say_hi())
